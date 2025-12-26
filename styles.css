@@ -75,3 +75,23 @@ img {
     flex-direction: column;
     width: 20%;
 }
+
+#quote-section {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+
+#author {
+    text-align: right;
+    margin-top: -10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    margin-top: 30px;
+}
