@@ -10,10 +10,12 @@
     background-color: #1f2937;
     
     
+    
 }
 
 #logo {
     margin-left: 30px;
+    margin-top: 10px;
 
 }
 
@@ -45,4 +47,31 @@
     border: 2px solid white;
     border-radius: 5px;
 
+}
+h2 {
+    text-align: center;
+}
+
+.pics {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 50px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+#main-img {
+    width: 250px;
+    height: auto;
+}
+
+.image-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
 }
